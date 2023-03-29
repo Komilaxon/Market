@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+.img_box{
+    max-width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fruits__card{
+    max-width: 400px;
+    padding: 20px;
+    margin: 25px;
+    box-shadow: 0 0 2px 3px #b6b3b3;
+    display: flex;
+    align-items: center;
+}
+
+.fruits, .korzinka{
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+button{
+    padding: 7px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(207, 57, 127);
+    margin-top: 10px;
+    transition: all 0.4s ease;
+     color: #fff;
+}
+
+button:hover{
+    background-color: rgb(150, 51, 97);
+}
+
+.price{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text__box{
+    margin-left: 20px;
+}
+
+
